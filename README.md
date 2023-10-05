@@ -3,8 +3,8 @@
 ## Usage:
 
 ```hcl
-module "ec2" {
-    source = ""
+module "vp" {
+    source = "kaizenacademy/vp/module"
     version = "0.0.1"
     region = "us-east-1"
     vpc_cidr = "10.0.0.0/16"
